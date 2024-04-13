@@ -1,0 +1,36 @@
+.my-list-card {
+    margin: 16px;
+    padding: 16px;
+  }
+  
+  .view-all-button {
+    float: right;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+  }
+  
+  .count-type {
+    margin: 0 16px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 4px 8px;
+  }
+  
+  .updated-time {
+    color: #757575;
+  }
+  
+  .more-button {
+    color: #757575;
+  }
+  
+  .highlight {
+    color: #007bff; /* This is a shade of blue; adjust the hex value as needed */
+  }

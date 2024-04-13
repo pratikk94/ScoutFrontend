@@ -1,0 +1,12 @@
+.parent-container {
+    display: flex;
+    margin-left: -3%;
+    width: 100%; /* This assumes the parent container takes up the full width of the viewport */
+  }
+  
+  /* If the RecentlySearched and ProductCards components are not already styled to take up 50% width, you can add specific classes to control their width */
+  .RecentlySearched, .ProductCards {
+    flex-basis: 50%;
+    /* Or use 'flex: 1 0 50%' which means 'flex-grow: 1', 'flex-shrink: 0', and 'flex-basis: 50%' */
+  }
+  

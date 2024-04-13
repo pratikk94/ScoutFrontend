@@ -1,6 +1,6 @@
 .recently-searched-container {
     width: 50%; /* Takes up 50% of the parent container's width */
-    margin: auto; /* Centers the container if it's within a larger parent */
+    margin-left: 4%; /* Centers the container if it's within a larger parent */
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
